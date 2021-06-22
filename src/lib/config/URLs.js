@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 const APP_URL = process.env.REACT_APP_API_URL || 'https://api.patca.ph';
-export const HOME = process.env.REACT_APP_HOME_URL;
+export const HOME = process.env.REACT_APP_HOME_URL || 'https://patca.ph';
 export const API_BASE_URL = `${APP_URL}/v1`;
 export const SANCTUM = `${APP_URL}/sanctum/csrf-cookie`;
 export const DASHBOARD = `${APP_URL}/dashboard`;
